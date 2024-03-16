@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para a barra de navegação */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f00101; /* Cor de fundo da barra de navegação */
+    padding: 10px; /* Espaçamento interno */
+    font-family: "Inter , sans serif";
+    font-size: 15px;
+}
+
+/* Estilos para o logo */
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para o menu */
+.menu {
+    list-style-type: none; /* Remover marcadores de lista */
+    display: flex;
+}
+
+.menu li {
+    margin-right: 150px; /* Espaçamento entre os itens do menu */
+}
+
+.menu li:last-child {
+    margin-right: 20px; /* Remover margem direita do último item */
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white; /* Cor do texto do menu */
+}
+
+main{
+    background: black;
+}
+.quemSomos {
+    font-family: "Inter , sans serif";
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    color: white;
+    position: relative;
+    text-align: left;
+}
+.quemSomos img{
+    display: inline-block;
+    width: 695px;
+    margin-top: 100px;
+    margin-left: 60px;
+    margin-right: 100px; /* Espaço entre a imagem e o texto */
+}
+
+.btn {
+    position: relative;
+    top: 150px ;
+    left: ;
+    bottom:;
+    right: 300px;
+    background-color: #f00101;
+    color: white;
+}
