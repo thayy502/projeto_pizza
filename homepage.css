@@ -1,3 +1,10 @@
+@media only screen and (min-width: 768px) {
+   
+}
+    body {
+      background-color: #f00101;
+    }
+  
 * {
     margin: 0;
     padding: 0;
@@ -48,9 +55,11 @@ main{
     font-size: 15px;
     display: flex;
     align-items: center;
-    color: white;
+    background-color: white;
+    color: black;
     position: relative;
     text-align: left;
+    padding-bottom: 100px;
 }
 .quemSomos img{
     display: inline-block;
@@ -58,14 +67,26 @@ main{
     margin-top: 100px;
     margin-left: 60px;
     margin-right: 100px; /* Espaço entre a imagem e o texto */
+    padding-bottom: 100px;
+    padding-top: 100px;
 }
 
 .btn {
     position: relative;
     top: 150px ;
-    left: ;
-    bottom:;
     right: 300px;
     background-color: #f00101;
     color: white;
 }
+
+.promocoes{
+    background-color: #f00101;
+    color: white;
+    font-family: "Inter , sans serif";
+    font-size: 15px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+
+
