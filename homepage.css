@@ -1,16 +1,4 @@
-/* largura de 768px (dispositivos móveis) */
-@media only screen and (max-width: 768px) {
 
-  
-  
-}
-
-/* largura de 769px e 1024px (tablets) */
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-
-
-
-}
 
 /* largura de de 1024px (desktops) */
 
@@ -127,3 +115,16 @@ footer{
     color: white;
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
